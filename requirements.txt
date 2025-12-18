@@ -1,0 +1,10 @@
+torch
+numpy
+faiss-cpu
+sentence-transformers
+ollama
+edge-tts
+streamlit
+audio-recorder-streamlit
+scipy
+soundfile
