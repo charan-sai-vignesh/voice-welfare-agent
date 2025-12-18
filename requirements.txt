@@ -3,9 +3,9 @@ numpy
 faiss-cpu
 sentence-transformers
 ollama
-gtts
 streamlit
 audio-recorder-streamlit
 scipy
 soundfile
 openai-whisper
+gTTS
