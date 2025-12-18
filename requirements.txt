@@ -8,3 +8,4 @@ streamlit
 audio-recorder-streamlit
 scipy
 soundfile
+openai-whisper
