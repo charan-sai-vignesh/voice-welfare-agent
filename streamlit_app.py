@@ -6,7 +6,7 @@ import soundfile as sf
 
 from audio_recorder_streamlit import audio_recorder
 from stt.whisper_stt import speech_to_text
-from tts.coqui_tts import text_to_speech
+from local_tts.coqui_tts import text_to_speech
 from agent.memory import Memory
 from agent.main_agent import run_agent
 
