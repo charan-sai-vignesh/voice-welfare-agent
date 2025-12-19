@@ -1,5 +1,5 @@
 from stt.whisper_stt import speech_to_text
-from gtts.coqui_tts import text_to_speech
+from local_tts.coqui_tts import text_to_speech
 from agent.memory import Memory
 from agent.planner import planner
 from agent.executor import executor
@@ -10,7 +10,6 @@ memory = Memory()
 def run_agent(audio_input):
     user_text = speech_to_text(audio_input)
 
-    # Simple info extraction (demo)
     if "రైతు" in user_text:
         memory.update("occupation", "farmer")
     if "వయసు" in user_text:
